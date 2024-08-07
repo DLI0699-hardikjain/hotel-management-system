@@ -1,8 +1,8 @@
 const readlineSync = require('readline-sync');
-import { Hotel } from './entities/Hotel';
-import { Booking } from './entities/Booking';
-import { User } from './entities/User';
-import { Room } from './entities/Room';
+import { Hotel } from './models/Hotel';
+import { Booking } from './models/Booking';
+import { User } from './models/User';
+import { Room } from './models/Room';
 
 const hotels: Hotel[] = [];
 const users: User[] = [];
